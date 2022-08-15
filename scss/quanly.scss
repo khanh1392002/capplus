@@ -1,0 +1,23 @@
+.manager{
+    display: flex;
+    justify-content: space-between;
+    h4 {
+        font-size: 50px;
+        color: #D71920;
+        font-weight: 300;
+        font-family: Montserrat-Variable, sans-serif;
+    }
+    p {
+        font-weight: 300;
+        font-size: 20px;
+        color: #383232;
+        margin: 0;
+        font-family: Montserrat-Variable, sans-serif;
+        text-transform: uppercase;
+    }
+    span{
+        font-size: 18px;
+        font-weight: 300;
+        font-family: Montserrat-Variable, sans-serif;
+    }
+}

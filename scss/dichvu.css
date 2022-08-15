@@ -1,0 +1,145 @@
+.cap-design {
+  margin: 80px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px; }
+  .cap-design img {
+    width: 100%; }
+  .cap-design .text-cap {
+    position: relative; }
+    .cap-design .text-cap .text-chiden {
+      position: absolute;
+      top: 40%; }
+      .cap-design .text-cap .text-chiden span {
+        font-size: 20px;
+        color: #D71920;
+        font-family: Montserrat-Variable, sans-serif;
+        font-weight: 300; }
+      .cap-design .text-cap .text-chiden h4 {
+        font-size: 40px;
+        margin: 0;
+        font-family: Montserrat-Variable, sans-serif;
+        font-weight: 300;
+        color: #383232;
+        width: 50%; }
+      .cap-design .text-cap .text-chiden p {
+        font-size: 18px;
+        font-family: Montserrat-Variable, sans-serif;
+        font-weight: 300;
+        color: #383232;
+        padding: 30px 25px 0px 0px;
+        width: 60%; }
+  .cap-design .text-cap::before {
+    content: "";
+    width: 2px;
+    height: 172px;
+    background-color: #383232;
+    position: absolute; }
+  .cap-design .text-cap::after {
+    content: "";
+    width: 2px;
+    height: 46px;
+    background-color: #383232;
+    position: absolute;
+    bottom: 0; }
+
+.mission {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  margin: 80px 0px; }
+  .mission .view h4 {
+    font-size: 24px;
+    font-family: Montserrat-Variable, sans-serif;
+    font-weight: 700;
+    color: #D71920;
+    text-transform: uppercase; }
+  .mission .view p {
+    font-size: 18px;
+    font-family: Montserrat-Variable, sans-serif;
+    font-weight: 300;
+    color: #383232;
+    padding: 10px 0px; }
+
+.bot {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+  margin: 80px 0px; }
+  .bot img {
+    width: 100%; }
+  .bot .bot-wrapper {
+    position: relative; }
+    .bot .bot-wrapper .bot-chiden {
+      position: absolute;
+      top: 38%;
+      display: grid;
+      grid-template-columns: 1fr 60%;
+      gap: 20px; }
+      .bot .bot-wrapper .bot-chiden .left {
+        height: 45%;
+        overflow-y: scroll;
+        direction: rtl;
+        text-align: left; }
+        .bot .bot-wrapper .bot-chiden .left ul {
+          padding-left: 30px; }
+          .bot .bot-wrapper .bot-chiden .left ul li {
+            font-size: 16px;
+            font-weight: 300;
+            font-family: Montserrat-Variable, sans-serif;
+            padding-bottom: 20px; }
+            .bot .bot-wrapper .bot-chiden .left ul li img {
+              display: none; }
+          .bot .bot-wrapper .bot-chiden .left ul li.action {
+            font-size: 20px;
+            padding-left: 30px;
+            position: relative; }
+            .bot .bot-wrapper .bot-chiden .left ul li.action img {
+              display: block;
+              position: absolute;
+              width: 7%;
+              left: 0;
+              top: 3px; }
+      .bot .bot-wrapper .bot-chiden ::-webkit-scrollbar {
+        width: 6px; }
+      .bot .bot-wrapper .bot-chiden ::-webkit-scrollbar-track {
+        background-color: #383232;
+        opacity: 1; }
+      .bot .bot-wrapper .bot-chiden ::-webkit-scrollbar-thumb {
+        background: #D72027; }
+      .bot .bot-wrapper .bot-chiden .right {
+        text-align: right; }
+        .bot .bot-wrapper .bot-chiden .right span {
+          font-size: 20px;
+          font-family: Montserrat-Variable, sans-serif;
+          font-weight: 300;
+          color: #D71920; }
+        .bot .bot-wrapper .bot-chiden .right h4 {
+          padding: 10px 0px 10px 20%;
+          font-size: 30px;
+          font-family: Montserrat-Variable, sans-serif;
+          font-weight: 300;
+          color: #383232; }
+        .bot .bot-wrapper .bot-chiden .right p {
+          font-size: 18px;
+          font-family: Montserrat-Variable, sans-serif;
+          font-weight: 300;
+          color: #383232;
+          padding: 10px 0px 0px 25px; }
+  .bot .bot-wrapper:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 164px;
+    background-color: #383232;
+    right: 0; }
+  .bot .bot-wrapper:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 68px;
+    background-color: #383232;
+    right: 0;
+    bottom: 0; }
+
+/*# sourceMappingURL=dichvu.css.map */

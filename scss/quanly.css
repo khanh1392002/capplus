@@ -1,0 +1,21 @@
+.manager {
+  display: flex;
+  justify-content: space-between; }
+  .manager h4 {
+    font-size: 50px;
+    color: #D71920;
+    font-weight: 300;
+    font-family: Montserrat-Variable, sans-serif; }
+  .manager p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #383232;
+    margin: 0;
+    font-family: Montserrat-Variable, sans-serif;
+    text-transform: uppercase; }
+  .manager span {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Montserrat-Variable, sans-serif; }
+
+/*# sourceMappingURL=quanly.css.map */
